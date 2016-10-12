@@ -1,0 +1,15 @@
+/* Isaac Roberts
+ * CSC 172 Toolbox: Lab T,R 9:40AM - 10:25AM
+ * 10/12/16
+ * I did not collaborate with anyone on this assignment.
+ * Content built from Section 4.3 in Textbook
+ */
+public interface Queue<T> {
+	
+	public void clear(); //Reinitialize the Queue
+	public void enqueue(T item); //Add item to the tail of the Queue
+	public T dequeue(); //Remove and return item at the head of the Queue
+	public T frontValue(); //Return without removing item at the head of the Queue
+	public int length(); //Return the length of the Queue
+
+}
